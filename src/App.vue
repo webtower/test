@@ -174,7 +174,8 @@ export default {
                         {
                           text: "h1",
                           className: "text-lg font-bold text-white",
-                          description: "B2"
+                          description: "B2",
+                          droppable: false
                         }
                       ]
                     },
