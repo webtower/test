@@ -66,20 +66,23 @@ export default {
                   text: "h1",
                   className: "text-3xl font-bold",
                   description: "Welcome back, Ignas!",
-                  droppable: false
+                  droppable: false,
+                  draggable: true,
                 },
                 {
                   text: "p",
                   className: "text-lg text-gray-500 tracking-wide mb-10",
                   description:
                     "You have learned 80% of the course. Keep it up and improve your results!",
-                  droppable: false
+                  droppable: false,
+                  draggable: true
                 },
                 {
                   text: "h1",
                   className: "text-xl font-semibold mb-5",
                   description: "Your next classes",
-                  droppable: false
+                  droppable: false,
+                  draggable: true
                 }
               ]
             },
@@ -91,9 +94,11 @@ export default {
                 {
                   text: "div",
                   className: "flex-1 flex bg-blue-500 p-6 rounded-lg mx-4",
+                  draggable: true,
                   children: [
                     {
                       text: "div",
+                      draggable: true,
                       className:
                         "bg-blue-400 h-12 w-12 flex items-center justify-center rounded-lg mr-4",
                       children: [
@@ -101,25 +106,29 @@ export default {
                           text: "h1",
                           className: "text-lg font-bold text-white",
                           description: "B2",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         }
                       ]
                     },
                     {
                       text: "div",
                       className: "",
+                      draggable: true,
                       children: [
                         {
                           text: "p",
                           className: "text-white opacity-75 font-medium",
                           description: "Business English",
-                          droppable: false
+                          droppable: false,
+                          draggable: true,
                         },
                         {
                           text: "h1",
                           className: "text-xl text-white font-bold",
                           description: "Grammar",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         }
                       ]
                     }
@@ -128,9 +137,11 @@ export default {
                 {
                   text: "div",
                   className: "flex-1 flex bg-blue-500 p-6 rounded-lg mx-4",
+                  draggable: true,
                   children: [
                     {
                       text: "div",
+                      draggable: true,
                       className:
                         "bg-blue-400 h-12 w-12 flex items-center justify-center rounded-lg mr-4",
                       children: [
@@ -138,25 +149,29 @@ export default {
                           text: "h1",
                           className: "text-lg font-bold text-white",
                           description: "B2",
-                          droppable: false
+                          droppable: false,
+                          draggable: true,
                         }
                       ]
                     },
                     {
                       text: "div",
                       className: "",
+                      draggable: true,
                       children: [
                         {
                           text: "p",
                           className: "text-white opacity-75 font-medium",
                           description: "Business Spanish",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         },
                         {
                           text: "h1",
                           className: "text-xl text-white font-bold",
                           description: "Vocabulary",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         }
                       ]
                     }
@@ -165,9 +180,11 @@ export default {
                 {
                   text: "div",
                   className: "flex-1 flex bg-blue-500 p-6 rounded-lg mx-4",
+                  draggable: true,
                   items: [
                     {
                       text: "div",
+                      draggable: true,
                       className:
                         "bg-blue-400 h-12 w-12 flex items-center justify-center rounded-lg mr-4",
                       children: [
@@ -175,25 +192,29 @@ export default {
                           text: "h1",
                           className: "text-lg font-bold text-white",
                           description: "B2",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         }
                       ]
                     },
                     {
                       text: "div",
                       className: "",
+                      draggable: true,
                       children: [
                         {
                           text: "p",
                           className: "text-white opacity-75 font-medium",
                           description: "Business French",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         },
                         {
                           text: "h1",
                           className: "text-xl text-white font-bold",
                           description: "Vocabulary",
-                          droppable: false
+                          droppable: false,
+                          draggable: true
                         }
                       ]
                     }
